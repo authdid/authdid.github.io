@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:authdid.github.io",
+    "verificationMethod": [
+      {
+        "id": "did:web:authdid.github.io#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:authdid.github.io",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "secp256k1",
+          "x": "2dff000778aba8c9898a27636baec7b8759511760c89a0eed7e3ba8327b4803f",
+          "y": "578b99fb5b12da1504ae79471dd4436d60d49ee037a15c2fd612191a185afbde"
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:authdid.github.io#owner"
+    ],
+    "assertionMethod": [
+      "did:web:authdid.github.io#owner"
+    ]
+  }
